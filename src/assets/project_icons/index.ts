@@ -5,5 +5,8 @@
 // export { MyProjectIcon };
 // export default { MyProjectIcon };
 
+import projectOneIcon from './frog-hopper.png';
+export { projectOneIcon };
+
 export {};
 export default {};

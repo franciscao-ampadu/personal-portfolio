@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/
 import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
-import { comingSoon } from '../../assets';
+import { comingSoon, projectOneIcon } from '../../assets';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -229,10 +229,10 @@ const Projects = () => {
   // project data - these are the main cards
   const projects = [
     {
-      title: "Project One",
+      title: "#1 Frog Hopper Game",
       description: "Developed a game using Python and Pygame, with Arduino and MQTT integration for interactive control features. Worked on project structure, gameplay logic, user interaction, and technical documentation. The project involved collaborative development, debugging, and iterative improvements across sprints.",
-      technologies: ["Python", "PyGame"],
-      icon: comingSoon,
+      technologies: ["Python", "PyGame", "MQTT", "Arduino"],
+      icon: projectOneIcon,
       detailsUrl: "/projects/project-one",
       githubUrl: socialLinks.repositories.projectOne
     },
