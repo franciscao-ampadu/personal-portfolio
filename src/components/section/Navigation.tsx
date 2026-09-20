@@ -85,7 +85,7 @@ const Navigation = () => {
   return (
     <nav
       className={`navigation ${isScrolled ? 'scrolled' : ''}`}
-      aria-label="Main navigation"
+      aria-label="Franca" // come back and double check on this!!
       style={{
         position: 'fixed',
         top: '0px',
@@ -115,7 +115,7 @@ const Navigation = () => {
           }}
           onClick={() => window.location.href = '/'}
           aria-label="Your Name - Go to homepage">
-          Your Name
+          Franca
         </button>
         
         {/* Desktop Navigation */}

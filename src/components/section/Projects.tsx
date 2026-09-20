@@ -230,8 +230,8 @@ const Projects = () => {
   const projects = [
     {
       title: "Project One",
-      description: "A brief description of your first project. Highlight the key features and what makes it unique.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
+      description: "Developed a game using Python and Pygame, with Arduino and MQTT integration for interactive control features. Worked on project structure, gameplay logic, user interaction, and technical documentation. The project involved collaborative development, debugging, and iterative improvements across sprints.",
+      technologies: ["Python", "PyGame"],
       icon: comingSoon,
       detailsUrl: "/projects/project-one",
       githubUrl: socialLinks.repositories.projectOne
