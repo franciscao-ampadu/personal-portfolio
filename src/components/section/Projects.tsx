@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/
 import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
-import { comingSoon, projectOneIcon } from '../../assets';
+import { comingSoon, projectOneIcon, projectTwoIcon } from '../../assets';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -237,10 +237,10 @@ const Projects = () => {
       githubUrl: socialLinks.repositories.projectOne
     },
     {
-      title: "Project Two",
-      description: "A brief description of your second project. Highlight the key features and what makes it unique.",
-      technologies: ["Python", "Flask", "PostgreSQL", "Docker"],
-      icon: comingSoon,
+      title: "#2 YouTube Homepage Clone",
+      description: "A responsive YouTube clone built with HTML and CSS, recreating YouTube’s familiar layout and interface while practising web design, page structure and styling",
+      technologies: ["HTML", "CSS"],
+      icon: projectTwoIcon,
       detailsUrl: "/projects/project-two",
       githubUrl: socialLinks.repositories.projectTwo
     },

@@ -8,12 +8,12 @@ const Experience = () => {
   const themeColors = useThemeColors();
   const experiences = [
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Teaching Assistant",
+      company: "Gothenburg University",
+      location: "Gothenburg, Sweden",
+      period: "August 2026 - June 2027",
       description: [
-        "Description of your role and accomplishments",
+        "Teahci",
       ]
     },
     {

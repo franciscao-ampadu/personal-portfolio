@@ -27,17 +27,16 @@ const About = () => {
   // maybe change the images
   const profileImages = [
     { src: profile1, caption: "me!" },
-    { src: profile2, caption: "tinkercard practice." },
-    { src: profile3, caption: "systems dev. project" }
+    { src: profile2, caption: "making ideas tangible" },
+    { src: profile3, caption: "outside of the classroom" }
   ];
 
   const fullAsciiArt = `⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⢀⣰⣀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠘⠀⠀⣶⡿⣷⣦⣾⣿⣧
-⠀⠀⠀⠀⠻⣧⠀⠛⠀⡘⠏
-⠀⠀⠀⠀⠀⠉⠳⣦⣮⠁⠀
-⠀⠀⠀⠀⠀⠀⠀⠉⠀⠠⡧
-⠀⠀⠀⠠⡥⠄⠀⠀⠀⠀⠀`;
+⠀⠀⠀⠀⣄⠀⠀⠀
+⢰⣤⣀⣼⣿⠀⠀⠀
+⠀⣱⠆⠀⢨⣓⣦⠄
+⠴⠷⠒⢆⣿⠅⠀⠀
+⠀⠀⠀⠈⠋⠂⠀⠀`;
 
   // Typewriter effect for ASCII art
   useEffect(() => {

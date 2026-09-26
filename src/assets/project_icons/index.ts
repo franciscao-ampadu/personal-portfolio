@@ -6,7 +6,10 @@
 // export default { MyProjectIcon };
 
 import projectOneIcon from './frog-hopper.png';
+import projectTwoIcon from './youtube.webp';
+
 export { projectOneIcon };
+export { projectTwoIcon };
 
 export {};
 export default {};
