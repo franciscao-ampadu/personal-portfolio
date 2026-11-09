@@ -13,14 +13,16 @@ const Experience = () => {
       location: "Gothenburg, Sweden",
       period: "August 2026 - June 2027",
       description: [
-        "Teahci",
+        "Currently supporting students during programming labs, helping them understand fundamental programming concepts and complete practical exercises.", "Guiding students through debugging and troubleshooting to develop their coding and problem-solving skills.", "Explaining technical concepts, answering questions and providing individual support to help students build confidence in programming."
       ]
     },
-    {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+    
+    /* {
+      // More to be added when I develop in my engineering career 
+      title: "Yet to be filled",
+      company: "Yet to be filled",
+      location: "Yet to be filled",
+      period: "Yet to be filled",
       description: [
         "Description of your role and accomplishments",
         "Another accomplishment or responsibility",
@@ -38,6 +40,7 @@ const Experience = () => {
         "One more key achievement",
       ]
     }
+    */
   ];
 
   return (
