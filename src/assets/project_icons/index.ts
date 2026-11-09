@@ -7,9 +7,11 @@
 
 import projectOneIcon from './frog-hopper.png';
 import projectTwoIcon from './youtube.webp';
+import projectThreeIcon from './booooth.png';
 
 export { projectOneIcon };
 export { projectTwoIcon };
+export { projectThreeIcon };
 
 export {};
 export default {};

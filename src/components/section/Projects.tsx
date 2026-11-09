@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/
 import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
-import { comingSoon, projectOneIcon, projectTwoIcon } from '../../assets';
+import { comingSoon, projectOneIcon, projectThreeIcon, projectTwoIcon } from '../../assets';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -229,7 +229,7 @@ const Projects = () => {
   // project data - these are the main cards
   const projects = [
     {
-      title: "#1 Frog Hopper Game",
+      title: "Frog Hopper Game",
       description: "Developed a game using Python and Pygame, with Arduino and MQTT integration for interactive control features. Worked on project structure, gameplay logic, user interaction, and technical documentation. The project involved collaborative development, debugging, and iterative improvements across sprints.",
       technologies: ["Python", "PyGame", "MQTT", "Arduino"],
       icon: projectOneIcon,
@@ -237,7 +237,7 @@ const Projects = () => {
       githubUrl: socialLinks.repositories.projectOne
     },
     {
-      title: "#2 YouTube Homepage Clone",
+      title: "YouTube Homepage Clone",
       description: "A responsive YouTube clone built with HTML and CSS, recreating YouTube’s familiar layout and interface while practising web design, page structure and styling",
       technologies: ["HTML", "CSS"],
       icon: projectTwoIcon,
@@ -245,14 +245,15 @@ const Projects = () => {
       githubUrl: socialLinks.repositories.projectTwo
     },
     {
-      title: "Project Three",
-      description: "A brief description of your third project. Highlight the key features and what makes it unique.",
-      technologies: ["JavaScript", "Express", "AWS", "Tailwind CSS"],
-      icon: comingSoon,
+      title: "Booooth",
+      description: "A photo booth that runs in the browser and is designed to feel like the real thing. The curtain opens, a 3-2-1 countdown takes four shots, and the photo strip prints down the screen. Users can choose filters, frames and themed designs, download their strip, and pin it to a shared map.",
+      technologies: ["Next.js", "React", "Tailwind CSS", "Supabase"],
+      icon: projectThreeIcon,
       detailsUrl: "/projects/project-three",
       githubUrl: socialLinks.repositories.projectThree
     },
-    {
+    
+    /*{
       title: "Project Four",
       description: "A brief description of your fourth project. Highlight the key features and what makes it unique.",
       technologies: ["C++", "CMake", "OpenGL"],
@@ -260,6 +261,7 @@ const Projects = () => {
       detailsUrl: "/projects/project-four",
       githubUrl: socialLinks.repositories.projectFour
     }
+      */
   ];
 
   // Calculate carousel pagination
